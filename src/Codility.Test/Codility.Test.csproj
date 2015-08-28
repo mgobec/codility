@@ -51,7 +51,9 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Lesson5\Brackets.cs" />
+    <Compile Include="Lesson5\Fish.cs" />
     <Compile Include="Lesson5\StoneWall.cs" />
+    <Compile Include="Lesson6\EquiLeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -49,9 +49,11 @@
     <Compile Include="Lesson2\PermCheck.cs" />
     <Compile Include="Lesson3\CountDiv.cs" />
     <Compile Include="Lesson5\Brackets.cs" />
+    <Compile Include="Lesson5\Fish.cs" />
     <Compile Include="Lesson5\Nesting.cs" />
     <Compile Include="Lesson5\StoneWall.cs" />
     <Compile Include="Lesson6\Dominator.cs" />
+    <Compile Include="Lesson6\EquiLeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
