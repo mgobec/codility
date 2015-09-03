@@ -50,6 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Lesson1\FrogJmp.cs" />
+    <Compile Include="Lesson1\PermMissingElem.cs" />
+    <Compile Include="Lesson1\TapeEquilibrium.cs" />
+    <Compile Include="Lesson2\FrogRiverOne.cs" />
+    <Compile Include="Lesson2\MaxCounters.cs" />
+    <Compile Include="Lesson2\MissingInteger.cs" />
+    <Compile Include="Lesson2\PermCheck.cs" />
+    <Compile Include="Lesson4\NumberOfDiscIntersections.cs" />
     <Compile Include="Lesson5\Brackets.cs" />
     <Compile Include="Lesson5\Fish.cs" />
     <Compile Include="Lesson5\StoneWall.cs" />
@@ -62,6 +70,7 @@
       <Name>Codility</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
