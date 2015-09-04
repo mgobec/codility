@@ -1,5 +1,7 @@
 ﻿namespace Codility.Lesson5
 {
+    using System.Collections.Generic;
+
     /// <summary>
     /// You are given two non-empty zero-indexed arrays A and B consisting of N integers.Arrays A and B represent N voracious fish in a river, ordered downstream along the flow of the river.
     /// 
@@ -50,8 +52,35 @@
     {
         public int Solution(int[] A, int[] B)
         {
-            // TODO: Implement
-            return 0;
+            var len = A.Length;
+            var downstream = new Stack<int>();
+            var safe = 0;
+            for (var i = 0; i < len; i++)
+            {
+                if (downstream.Count == 0)
+                {
+                    if (B[i] == 0) safe++;
+                    else downstream.Push(A[i]);
+                    continue;
+                }
+
+                if (B[i] == 1)
+                {
+                    downstream.Push(A[i]);
+                    continue;
+                }
+
+                if (downstream.Count > 0 && downstream.Peek() < A[i])
+                {
+                    while (downstream.Count > 0 && downstream.Peek() < A[i])
+                    {
+                        downstream.Pop();
+                    }
+                    i--;
+                }
+            }
+
+            return safe + downstream.Count;
         }
     }
 }

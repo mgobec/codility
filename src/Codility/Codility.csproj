@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\Negabinary.cs" />
+    <Compile Include="Challenges\SegmentCrossing.cs" />
     <Compile Include="Lesson1\FrogJmp.cs" />
     <Compile Include="Lesson1\PermMissingElem.cs" />
     <Compile Include="Lesson1\TapeEquilibrium.cs" />
