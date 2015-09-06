@@ -50,6 +50,7 @@
     <Compile Include="Lesson2\MissingInteger.cs" />
     <Compile Include="Lesson2\PermCheck.cs" />
     <Compile Include="Lesson3\CountDiv.cs" />
+    <Compile Include="Lesson3\PassingCars.cs" />
     <Compile Include="Lesson4\Distinct.cs" />
     <Compile Include="Lesson4\MaxProductOfThree.cs" />
     <Compile Include="Lesson4\NumberOfDiscIntersections.cs" />

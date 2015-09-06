@@ -45,7 +45,9 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
@@ -59,6 +61,8 @@
     <Compile Include="Lesson2\MaxCounters.cs" />
     <Compile Include="Lesson2\MissingInteger.cs" />
     <Compile Include="Lesson2\PermCheck.cs" />
+    <Compile Include="Lesson3\CountDiv.cs" />
+    <Compile Include="Lesson3\PassingCars.cs" />
     <Compile Include="Lesson4\NumberOfDiscIntersections.cs" />
     <Compile Include="Lesson5\Brackets.cs" />
     <Compile Include="Lesson5\Fish.cs" />
