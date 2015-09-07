@@ -62,6 +62,8 @@
     <Compile Include="Lesson2\MissingInteger.cs" />
     <Compile Include="Lesson2\PermCheck.cs" />
     <Compile Include="Lesson3\CountDiv.cs" />
+    <Compile Include="Lesson3\GenomicRangeQuery.cs" />
+    <Compile Include="Lesson3\MinAvgTwoSlice.cs" />
     <Compile Include="Lesson3\PassingCars.cs" />
     <Compile Include="Lesson4\NumberOfDiscIntersections.cs" />
     <Compile Include="Lesson5\Brackets.cs" />
@@ -69,6 +71,9 @@
     <Compile Include="Lesson5\StoneWall.cs" />
     <Compile Include="Lesson6\EquiLeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stage2\Task1.cs" />
+    <Compile Include="Stage2\Task2.cs" />
+    <Compile Include="Stage2\Task3.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Codility\Codility.csproj">
